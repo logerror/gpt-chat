@@ -4,6 +4,7 @@ Mac:
 
 Windows:
 ![image](https://user-images.githubusercontent.com/13896386/223722120-7ce80f70-f29e-4d3f-8d0c-8139e31ea403.png)
+也可以新建一个bat脚本方便使用`start cmd /k gpt-chat.exe sk-jXXXXXXXXXXXXXXXXX`
 
 Linux:
 same as mac
