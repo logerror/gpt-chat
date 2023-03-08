@@ -13,7 +13,7 @@ same as mac
 ## 如何使用
 1. 访问  https://platform.openai.com/account/api-keys 获取你的secret key
 2. 下载地址,根据操作系统及cpu架构选择压缩包解压即可 (https://github.com/logerror/gpt-chat/releases)
-3. 在工具的统计目录内创建一个名为`.env`的文件,内容如下
+   3. 在工具的同级目录下创建一个名为`.env`的文件,内容如下
    ```
    # you can find you api-key in: https://platform.openai.com/account/api-keys
    OPEN_AI_SECRET_KEY=""
