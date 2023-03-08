@@ -50,10 +50,10 @@ func Run() error {
 
 	ctx := context.Background()
 	if cfg.Model == gogpt.GPT3Dot5Turbo0301 || cfg.Model == gogpt.GPT3Dot5Turbo {
-		fmt.Print("input your question:")
 		var messages []gogpt.ChatCompletionMessage
 		for {
 			var question string
+			fmt.Print("Input Question: ")
 			fmt.Scanln(&question)
 			currentMessage := gogpt.ChatCompletionMessage{
 				Role:    "user",
@@ -65,11 +65,13 @@ func Run() error {
 			if err != nil {
 				return err
 			}
-			fmt.Println(resp.Choices[0].Message.Content)
+			fmt.Print(resp.Choices[0].Message.Content)
 			messages = append(messages, gogpt.ChatCompletionMessage{
 				Role:    "assistant",
 				Content: resp.Choices[0].Message.Content,
 			})
+			fmt.Println("")
+			fmt.Println("------------------------------")
 		}
 	}
 
