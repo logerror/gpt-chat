@@ -1,5 +1,13 @@
 ## 预览
+Mac:
 ![image](https://user-images.githubusercontent.com/13896386/222678871-12582f0d-1995-46ca-a016-2bf348a55758.png)
+
+Windows:
+![image](https://user-images.githubusercontent.com/13896386/223722120-7ce80f70-f29e-4d3f-8d0c-8139e31ea403.png)
+
+Linux:
+same as mac
+
 
 
 ## 如何使用
